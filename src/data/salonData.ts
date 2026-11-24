@@ -51,13 +51,13 @@ export const SALON_INFO = {
 } as const;
 
 export const HERO_MEDIA = {
-  image: '/src/assets/images/hero_sunforce_atelier_1795468488359.jpg',
+  image: './src/assets/images/hero_sunforce_atelier_1795468488359.jpg',
   imageAlt:
     'Редакційна композиція інтерʼєру бʼюті-простору з темно-зеленим мармуром, ботанічними флаконами та мʼяким ранковим світлом',
 };
 
 export const ABOUT_MEDIA = {
-  image: '/src/assets/images/about_kyiv_sanctuary_1795468492245.jpg',
+  image: './src/assets/images/about_kyiv_sanctuary_1795468492245.jpg',
   imageAlt:
     'Спокійна лаунж-зона салону у теплих кремових тонах з травертиновим столиком та керамічною чашкою кави',
 };
@@ -71,7 +71,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     description:
       'Індивідуальний підхід до здоровʼя та природного сяйва шкіри обличчя у спокійній, камерній атмосфері.',
     scopeNote: 'Точний перелік процедур і протоколів уточнюється під час консультації в Instagram.',
-    image: '/src/assets/images/service_cosmetology_ritual_1795468489259.jpg',
+    image: './src/assets/images/service_cosmetology_ritual_1795468489259.jpg',
     imageAlt: 'Делікатна косметологічна процедура догляду за шкірою обличчя в освітленому кабінеті',
     hasVerifiedPrices: false,
   },
@@ -83,7 +83,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     description:
       'Делікатне підкреслення природних рис обличчя: пудрові брови, пудрові губи та акуратна міжвійка з можливістю корекції.',
     scopeNote: 'Орієнтовні ціни з архіву Instagram наведено нижче у розділі прайсу.',
-    image: '/src/assets/images/service_permanent_lashes_1795468489846.jpg',
+    image: './src/assets/images/service_permanent_lashes_1795468489846.jpg',
     imageAlt: 'Портрет з акцентом на природну форму брів, вій та мʼякий відтінок губ',
     hasVerifiedPrices: true,
   },
@@ -95,7 +95,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     description:
       'Делікатні процедури для відновлення структури, гладкості та живого блиску волосся.',
     scopeNote: 'Актуальні послуги та вартість догляду уточнюються перед записом.',
-    image: '/src/assets/images/service_hair_care_1795468489782.jpg',
+    image: './src/assets/images/service_hair_care_1795468489782.jpg',
     imageAlt: 'Доглянуте темне волосся з природним блиском на фоні теплої студії',
     hasVerifiedPrices: false,
   },
@@ -107,7 +107,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     description:
       'Естетичний догляд і підкреслення вигину вій для легкого, доглянутого погляду на щодень.',
     scopeNote: 'Доступні формати процедур і вільні віконця уточнюються в Direct.',
-    image: '/src/assets/images/service_permanent_lashes_1795468489846.jpg',
+    image: './src/assets/images/service_permanent_lashes_1795468489846.jpg',
     imageAlt: 'Крупний план природно підкреслених вій та гармонійного погляду',
     hasVerifiedPrices: false,
   },
@@ -119,7 +119,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     description:
       'Сучасний напрям апаратного догляду, представлений у категоріях салону для комплексної турботи про тіло та шкіру.',
     scopeNote: 'Перелік зон, показання та чинний прайс потребують підтвердження адміністратора.',
-    image: '/src/assets/images/service_laser_aesthetic_1795468489849.jpg',
+    image: './src/assets/images/service_laser_aesthetic_1795468489849.jpg',
     imageAlt: 'Мінімалістична естетика апаратного догляду зі скляною призмою та теплим світлом',
     hasVerifiedPrices: false,
   },
@@ -182,7 +182,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
     title: 'Простір спокою',
     category: 'Інтерʼєр · Концепція',
     caption: 'Редакційна візуалізація атмосфери бʼюті-ательє у глибоких зелених і теплих камʼяних тонах.',
-    image: '/src/assets/images/hero_sunforce_atelier_1795468488359.jpg',
+    image: './src/assets/images/hero_sunforce_atelier_1795468488359.jpg',
     imageAlt: 'Стіл із зеленого мармуру, ботанічні флакони та тіні ранкового сонця на стіні',
     aspectClass: 'aspect-[4/3] md:aspect-auto md:h-[430px] md:col-span-7',
   },
@@ -191,7 +191,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
     title: 'Аромат кави поруч',
     category: 'Гостинність · Деталі',
     caption: 'Настрій неспішного ранку: поруч із простором працює кавʼярня @sunforce_coffee.',
-    image: '/src/assets/images/about_kyiv_sanctuary_1795468492245.jpg',
+    image: './src/assets/images/about_kyiv_sanctuary_1795468492245.jpg',
     imageAlt: 'Світла ніша, травертиновий столик із чашкою кави та льняна штора',
     aspectClass: 'aspect-[4/5] md:aspect-auto md:h-[430px] md:col-span-5',
   },
@@ -200,7 +200,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
     title: 'Дотик і баланс',
     category: 'Косметологія',
     caption: 'Делікатні ритуали догляду за шкірою обличчя без поспіху (демо-фото).',
-    image: '/src/assets/images/service_cosmetology_ritual_1795468489259.jpg',
+    image: './src/assets/images/service_cosmetology_ritual_1795468489259.jpg',
     imageAlt: 'Естетичний догляд за шкірою обличчя у світлому кабінеті',
     aspectClass: 'aspect-[4/3] md:aspect-auto md:h-[310px] md:col-span-4',
   },
@@ -209,7 +209,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
     title: 'Природна виразність',
     category: 'Перманент · Вії',
     caption: 'Мʼякі лінії брів, делікатні вії та натуральний тон губ (демо-фото).',
-    image: '/src/assets/images/service_permanent_lashes_1795468489846.jpg',
+    image: './src/assets/images/service_permanent_lashes_1795468489846.jpg',
     imageAlt: 'Жіночий портрет із природним макіяжем брів, вій та губ у золотому світлі',
     aspectClass: 'aspect-[4/3] md:aspect-auto md:h-[310px] md:col-span-4',
   },
@@ -218,7 +218,7 @@ export const GALLERY_FRAMES: GalleryFrame[] = [
     title: 'Здоровий блиск',
     category: 'Волосся · Лазерна естетика',
     caption: 'Гладкість текстур, природне світло та чистота ліній у кожній деталі.',
-    image: '/src/assets/images/service_hair_care_1795468489782.jpg',
+    image: './src/assets/images/service_hair_care_1795468489782.jpg',
     imageAlt: 'Блискуче здорове темне волосся у мʼякому студійному світлі',
     aspectClass: 'aspect-[4/3] md:aspect-auto md:h-[310px] md:col-span-4',
   },
