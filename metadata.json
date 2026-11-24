@@ -1,0 +1,8 @@
+{
+  "name": "Sunforce Beauty — Kyiv Editorial Demo",
+  "description": "Неофіційний преміальний вебконцепт для салону краси Sunforce Beauty у Києві (вул. Предславинська, 43/2).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
