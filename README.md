@@ -40,14 +40,25 @@ Open `http://localhost:3000` in your browser.
 
 ## Deploying to GitHub Pages
 
+### Option A — Automatic via GitHub Actions (Recommended)
+
+This repository includes `.github/workflows/deploy.yml`, which builds `dist/` automatically on every push to `main`.
+
+1. Push your code (including `.github/workflows/deploy.yml`) to `main`.
+2. In your GitHub repository, open **Settings → Pages**.
+3. Under **Build and deployment → Source**, choose **GitHub Actions**.
+
+### Option B — Manual via `npm run deploy`
+
 1. Ensure your local project is connected to your GitHub repository (`git remote -v`).
 2. Run:
 
 ```bash
+npm install
 npm run deploy
 ```
 
-3. In your GitHub repository, go to **Settings → Pages** and select **Deploy from a branch** → **`gh-pages`** (`/` root).
+3. In your GitHub repository, go to **Settings → Pages** and select **Deploy from a branch** → **`gh-pages`** (`/` root) — **do not** select `main`, because `main` contains unbuilt TypeScript/TSX source files and will show a blank page.
 
 *(Alternative)*: You can also deploy the `dist/` output directly to **Vercel** or **Netlify** with build command `npm run build` and output directory `dist`.
 
